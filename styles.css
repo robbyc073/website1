@@ -1,0 +1,14 @@
+#banner {
+    text-align:left;
+    font-weight:bolder;
+}
+
+#title {
+    text-align:center;
+}
+
+#shadow {
+    color: #00aaff;
+    text-shadow: 2px 2px #000000;
+    background-size: 1400px 800px;
+}
