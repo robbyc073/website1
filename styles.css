@@ -8,7 +8,60 @@
 }
 
 #shadow {
-    color: #00aaff;
-    text-shadow: 2px 2px #000000;
+    color: rgba(7, 33, 43, 0.99);
     background-size: 1400px 800px;
+    background-color: #f59733;
+}
+
+#green {
+    background-color: rgba(102, 219, 203, 0.81);
+}
+
+#name {
+    font-weight:bolder;
+}
+
+ul, p{
+    margin-left: 20px;
+}
+
+.front {
+    /*background-color:rgba(240, 250, 254, 0.8);*/
+    padding:10px;
+    width: 80%;
+
+}
+
+.navlist {
+    text-transform:uppercase;
+    display: inline-flex;
+    background-color:#F73054;
+    width:100%;
+    color: white;
+    justify-content:space-around;
+    padding:10px 20px;
+    align-items:center;
+    letter-spacing:5px;
+
+}
+
+.navlist li {
+    list-style:none;
+}
+
+#options {
+    width:40%;
+}
+
+#more-container {
+    margin:10px 5%;
+}
+
+a {
+    color:inherit;
+}
+
+a:hover {
+    color:white;
+    background-color:black;
 }
