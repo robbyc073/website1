@@ -34,7 +34,7 @@
                 <a class="dropdown-item" href="more.html">More</a>
                 <a class="dropdown-item" href="extras.html">Extras</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else goes here</a>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
             <li class="nav-item">
@@ -42,11 +42,14 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input id='search-input' class="form-control mr-sm-2" type="search" placeholder="Enter your name" aria-label="Search" autofocus>
+            <button id='buttonA' class="btn btn-outline-success my-2 my-sm-0" type="button">Enter</button>
           </form>
         </div>
       </nav>
-
+    <div>
+      <h2 id='search-output' class="front"></h2>
+    </div>
+    <script src="my-site.js"></script>
 </body>
 </html>
