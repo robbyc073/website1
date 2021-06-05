@@ -78,3 +78,15 @@ a:hover {
     font-size: 60px;
     font-family: Orbitron;
     letter-spacing: 7px;
+}
+
+#give-cat {
+    margin:15px;
+}
+
+#quotes {
+    border-width:thick;
+    border-color:black;
+    border-style:double;
+    margin:5px 30px;
+}

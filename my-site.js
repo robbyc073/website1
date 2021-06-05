@@ -45,3 +45,12 @@ function wow(){
 }
 
 document.querySelector('#buttonA').addEventListener('click', wow);
+
+//Kanye West quotes and cat pic
+let quotesDiv = document.getElementById("quotes");
+
+fetch ('https://api.kanye.rest')
+.then(res => res.json())
+.then(quote => {
+    quotesDiv.innerHTML += '<p> ${quote.quote} </p>'
+})
