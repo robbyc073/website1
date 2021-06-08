@@ -10,11 +10,23 @@
 #shadow {
     color: rgba(7, 33, 43, 0.99);
     background-size: 1400px 800px;
-    background-color: #f59733;
+    background-color: #3feee6;
 }
 
-#green {
+.green1 {
     background-color: rgba(102, 219, 203, 0.81);
+}
+
+.green2 {
+    background-color:red;
+}
+
+.green3 {
+    background-color:blue;
+}
+
+.green4 {
+    background-color:gray;
 }
 
 #name {
@@ -59,6 +71,7 @@ ul, p{
 
 a {
     color:inherit;
+    border-radius:10px;
 }
 
 a:hover {
@@ -87,6 +100,22 @@ a:hover {
 #quotes {
     border-width:thick;
     border-color:black;
-    border-style:double;
+    border-style:none;
     margin:5px 30px;
+    background-color:#97caef;
+    width:fit-content;
+    border-radius:25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#changer {
+    margin-left: 2%;
+    border-style:none;
+    border-radius:10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+#changer:hover {
+    background-color:#17D4FE;
 }

@@ -46,11 +46,26 @@ function wow(){
 
 document.querySelector('#buttonA').addEventListener('click', wow);
 
-//Kanye West quotes and cat pic
+/*Kanye West quotes and cat pic
 let quotesDiv = document.getElementById("quotes");
 
 fetch ('https://api.kanye.rest')
 .then(res => res.json())
 .then(quote => {
     quotesDiv.innerHTML += '<p> ${quote.quote} </p>'
-})
+})*/
+
+let extrasbg = document.getElementById('green');
+let colorChange = document.getElementById('changer');
+
+changer.addEventListener('click', set =>{
+    if (extrasbg.className == 'green1'){
+        extrasbg.className = 'green2';
+    }   else if (extrasbg.className == 'green2'){
+        extrasbg.className = 'green3';
+    }   else if (extrasbg.className == 'green3'){
+        extrasbg.className = 'green4';
+    }   else if(extrasbg.className == 'green4'){
+        extrasbg.className = 'green1';
+    }
+});
